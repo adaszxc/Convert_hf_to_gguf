@@ -10,7 +10,7 @@ from converter.core import CoreError, convert_model, detect_model_type
 from converter.mmproj_from_hf import build_mmproj_from_hf
 
 LM_STUDIO_INTEGRATION = 1
-# LM_STUDIO_INTEGRATION ==================================================================================
+# LM_STUDIO_INTEGRATION =================================================================================
 
 
 def _detect_lm_studio_models_dir() -> Path:
